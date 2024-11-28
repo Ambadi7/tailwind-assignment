@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ikea.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <nav class="flex h-20 bg-white w-full justify-between pr-10">
+                <!-- left -->
+                <div class="flex  gap-6 items-center">
+                    <img class="pl-12 w-36" src="/ikea.png" alt="">
+                    <!-- Search  -->
+                    <div class=" hidden md:flex items-center h-12 w-[300px] lg:w-[600px]  bg-slate-100 hover:bg-gray-200 rounded-full justify-between pl-4 pr-4">
+                        <div class="flex">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="bg-transparent border-transparent" type="">
+                        </div>
+                        <i class="fa-solid fa-camera"></i>
+
+                    </div>
+                </div>
+
+                <!-- Right -->
+                <div class="flex gap-2 items-center">
+                    <div class="flex items-center gap-3 hover:bg-gray-200  h-10 justify-center rounded-full">
+                        <i class="fa-regular fa-user"></i>
+                        <p class="hidden lg:flex">Hey!log in</p>
+                    </div>
+                    <!-- logo -->
+                    <div class=" flex gap-2 items-center" >
+                        <div class="flex hover:bg-gray-200 rounded-full w-10 h-10 justify-center items-center">
+                            <i class="fa-regular fa-heart "></i>
+                        </div>
+                        <div class="flex hover:bg-gray-200 rounded-full w-10 h-10 justify-center items-center ">
+                            <i class="fa-solid fa-bag-shopping "></i>
+                        </div>
+                        <div class="flex hover:bg-gray-200 rounded-full w-10 h-10 justify-center items-center lg:hidden">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            
+        </nav>
+    </div>
+    
+</body>
+</html>
